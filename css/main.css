@@ -163,9 +163,6 @@ main .persiapan {
     padding-right: 20px;
 }
 
-main .persiapanlingkungan {
-    padding-right: 100px;
-}
 
 main .title3 {
     color: #FFF;
@@ -196,10 +193,6 @@ main .fokus {
     justify-content: center;
     padding-left: 20px;
     padding-right: 20px;
-}
-
-main .fokusmeditasi {
-    padding-left: 100px;
 }
 
 main .title4 {
@@ -397,7 +390,7 @@ main .card-box {
     box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     main .card-box {
       flex-direction: column;
       align-items: center;
@@ -411,7 +404,8 @@ main .card-box {
         align-items: center;
         justify-content: center;
         gap: 30px;
-        padding-right: 0;
+        margin: 0px;
+        padding-right: 0px;
       }
     
       main .fokus {
@@ -421,23 +415,24 @@ main .card-box {
         justify-content: center;
         padding-bottom: 30px;
         gap: 30px;
-        padding-right: 0;
+        margin: 0px;
+        padding-right: 0px;
       }
   }
   
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 1024px) {
     main .card-box {
       gap: 10px;
     }
     
     main .boxx {
-      width: 90%;
+      width: 100%;
       height: auto;
       border-radius: 20px;
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     main .content {
       margin-top: 50px;
       padding-left: 10px;
@@ -445,7 +440,7 @@ main .card-box {
     }
   }
   
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 1024px) {
     main .content {
       margin-top: 30px;
       padding-left: 5px;
