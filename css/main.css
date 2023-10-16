@@ -1,0 +1,443 @@
+body {
+    background: #1D1D20;
+}
+
+nav {
+    position: sticky;
+    background: #1D1D20;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+}
+
+header.navbar-container {
+    width: 100%;
+    margin-inline: auto;
+    align-items: center;
+    padding-top: 10px;
+    position: sticky;
+    background-color: #1D1D20;
+    z-index: 999;
+    transition: all 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out;
+}  
+
+header.navbar-container:hover {
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
+}
+
+header.navbar-container .nav-list ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem 1rem;
+}
+
+header.navbar-container .nav-list li {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header.navbar-container .nav-list li a {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: #FDFEFE;
+    padding: .5rem 1.5rem;
+    border-radius: 999px;
+    transition: all .2s ease-in-out;
+}
+
+header.navbar-container .nav-list ul {
+    display: flex;
+    justify-content: center;
+}
+
+header.navbar-container .nav-list li {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header.navbar-container .nav-list li a {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: #FDFEFE;
+    border-radius: 999px;
+    transition: all .2s ease-in-out;
+}
+
+header.navbar-container .nav-list li:hover a {
+    background-color: #2F2E41;
+    color: white;
+}
+
+
+main {
+    padding-bottom: 100px;
+}
+
+
+main .content {
+    margin-top: 100px;
+    /* set in center  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main .title {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+main .descriptiotitle {
+    color: #FFF;
+    max-width: 1063px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+main .title2 {
+    padding-top: 50px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+main .descriptiotitle2 {
+    color: #FFF;
+    max-width: 1063px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+main .meditation {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px
+}
+
+main .persiapan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main .persiapanlingkungan {
+    padding-right: 100px;
+}
+
+main .title3 {
+    color: #FFF;
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+main .descriptiotitle3 {
+    color: #FFF;
+    width: 517px;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+main .fokus {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main .fokusmeditasi {
+    padding-left: 100px;
+}
+
+main .title4 {
+    color: #FFF;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+main .descriptiotitle4 {
+    color: #FFF;
+    width: 517px;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+main .title5 {
+    color: #FFF;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+main .fiktur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .card-box {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 47px;
+}
+
+main .boxx {
+    width: 300px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #282830;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
+}
+
+main .musicc {
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+main .textt {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    flex-shrink: 0;
+}
+
+main .title6 {
+    width: 175px;
+    padding-left: 30px;
+    color: #F2F2F2;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+main .descriptiotitle6 {
+    width: 175px;
+    padding-left: 30px;
+    color: #F2F2F2;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+main .put {
+    padding-bottom: 0px;
+    padding-right: 20px;
+    color: #FFF;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+.button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.button1 {
+    font-family: Poppins;
+    font-size: 20px;
+    padding-right: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer {
+    /* background-color: #2F2E41; */
+    background: #282830;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 47px;
+}
+
+footer .footer1 {
+    padding-left: 30px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .descripfooter {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+footer .copyr {
+    color: #6d6d6d;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer .titlefooter {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+footer .footer12 {
+    padding-left: 30px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .socials {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+main .card-box {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 47px;
+  }
+  
+  main .boxx {
+    width: 300px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #282830;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  @media screen and (max-width: 768px) {
+    main .card-box {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    main .card-box {
+      gap: 10px;
+    }
+    
+    main .boxx {
+      width: 90%;
+      height: auto;
+      border-radius: 20px;
+    }
+  }
+
+main .content {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    main .content {
+      margin-top: 50px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    main .content {
+      margin-top: 30px;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  }
