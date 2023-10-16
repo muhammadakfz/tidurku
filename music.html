@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device=width, initial-scale = 1.0">
+		<title>Website Turu</title>
+		<link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    </head>
+    <body>
+        <header class="navbar-container">
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="158" height="39" viewBox="0 0 158 39" fill="none">
+                    <g clip-path="url(#clip0_41_39)">
+                      <path d="M18.5808 2.07953V38.1426H9.6849V9.11916H0V2.07953H18.5808Z" fill="#FDFEFE"/>
+                      <path d="M30.5374 14.6546V38.3269H21.63V14.6546H30.5374Z" fill="#FDFEFE"/>
+                      <path d="M35.275 15.873C36.2936 13.769 37.8901 11.9893 39.8831 10.7362C41.8374 9.5329 44.101 8.90898 46.4045 8.93868C48.2144 8.91909 50.0031 9.32515 51.6223 10.1232C53.1252 10.8444 54.4094 11.9428 55.3461 13.3084V0H64.2497V38.011H55.3461V33.9045C54.4843 35.3035 53.2504 36.4428 51.7786 37.1987C50.1189 38.0432 48.2714 38.4647 46.4045 38.4247C44.1014 38.4503 41.8402 37.8168 39.8945 36.6008C37.8985 35.3282 36.3026 33.5309 35.2864 31.4113C34.1711 28.9691 33.5943 26.3209 33.5943 23.6422C33.5943 20.9634 34.1711 18.3153 35.2864 15.873H35.275ZM53.4976 18.5054C52.9157 17.9067 52.2174 17.4299 51.4445 17.1035C50.6716 16.7771 49.8399 16.6078 48.9992 16.6057C48.1585 16.6036 47.326 16.7687 46.5514 17.0912C45.7768 17.4138 45.0761 17.887 44.4911 18.4828C43.2613 19.7363 42.6451 21.4561 42.6426 23.6422C42.64 25.8283 43.2587 27.5619 44.4987 28.8429C45.0764 29.4486 45.7732 29.9316 46.5465 30.2626C47.3197 30.5936 48.1533 30.7656 48.9962 30.7681C49.8391 30.7705 50.6737 30.6034 51.449 30.2769C52.2242 29.9505 52.9239 29.4715 53.5052 28.8693C54.735 27.6007 55.3512 25.8709 55.3538 23.6798C55.3563 21.4887 54.7376 19.7589 53.4976 18.4903V18.5054Z" fill="#FDFEFE"/>
+                      <path d="M84.2941 9.1944L84.0235 38.1501H75.12V34.3144C74.2166 35.5817 73.2676 36.2398 71.7201 37.0107C70.1323 37.7912 68.3791 38.1882 66.6052 38.1689C64.5457 38.2102 62.5129 37.7036 60.7203 36.7024C59.0032 35.7098 57.6257 34.2341 56.764 32.4643C55.7847 30.4278 55.303 28.1932 55.3576 25.9398V9.1944H64.2078V24.7591C64.2078 26.6769 64.716 28.166 65.7323 29.2265C66.7487 30.287 68.0942 30.8134 69.7687 30.8059C71.5016 30.8059 72.8725 30.2744 73.8812 29.2115C74.89 28.1485 75.3982 26.6594 75.4058 24.744V9.1944H84.2941Z" fill="#FDFEFE"/>
+                      <path d="M115.773 22.2094L126.929 39H115.967L107.17 27.0454V38.9925H98.3241V1.22592H107.17V22.1041" fill="#FDFEFE"/>
+                      <path d="M158 10.2097V38.7029H149.15V34.8146C148.21 36.1112 146.956 37.1546 145.502 37.8493C143.921 38.6276 142.174 39.0221 140.406 39C138.361 39.0398 136.341 38.5372 134.56 37.5447C132.857 36.5566 131.492 35.0903 130.638 33.3329C129.663 31.31 129.184 29.0892 129.239 26.8499V10.2097H138.036V25.6766C138.036 27.5844 138.535 29.0648 139.534 30.1177C140.054 30.6492 140.683 31.0652 141.379 31.3382C142.075 31.6112 142.822 31.7348 143.57 31.7009C145.295 31.7009 146.658 31.1732 147.66 30.1177C148.661 29.0623 149.16 27.5819 149.157 25.6766V10.2097H158Z" fill="#FDFEFE"/>
+                      <path d="M74.9904 9.1944H93.5902V16.2303H83.9054V38.1689H74.9904V9.1944Z" fill="#FDFEFE"/>
+                      <path d="M117.24 17.8698C119.787 17.8698 121.852 15.8326 121.852 13.3196C121.852 10.8066 119.787 8.76944 117.24 8.76944C114.693 8.76944 112.628 10.8066 112.628 13.3196C112.628 15.8326 114.693 17.8698 117.24 17.8698Z" fill="#FDFEFE"/>
+                      <path d="M28.5973 1.22592C29.2474 2.29792 29.516 3.55342 29.3606 4.7932C29.2051 6.03297 28.6344 7.18601 27.7391 8.06935C26.8438 8.95268 25.6751 9.51573 24.4185 9.66914C23.162 9.82254 21.8894 9.55752 20.8029 8.91612C21.2466 9.64781 21.8536 10.27 22.5778 10.7354C23.3019 11.2008 24.124 11.4971 24.9817 11.6018C25.8394 11.7065 26.71 11.6168 27.5272 11.3396C28.3445 11.0624 29.0869 10.6049 29.698 10.002C30.3091 9.39911 30.7727 8.66662 31.0537 7.8603C31.3347 7.05397 31.4256 6.19504 31.3194 5.34885C31.2133 4.50265 30.913 3.69148 30.4413 2.97704C29.9696 2.2626 29.3389 1.6637 28.5973 1.22592Z" fill="white"/>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_41_39">
+                        <rect width="158" height="39" fill="white"/>
+                      </clipPath>
+                    </defs>
+                  </svg>
+            </div>
+            <nav class="nav-list">
+                <ul>
+                    <li><a href="#content">Home</a></li>
+                    <li><a href="#">Music</a></li>
+                    <li><a href="#">Trending</a></li>
+                    <li><a href="#">Playlist</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="listen">
+            <h2>Dengarkan Lagi</h2>
+            <ul>
+                <li>
+                    <div>
+                        
+                    </div>
+                    First
+                </li>
+                <li>
+                    Second
+                </li>
+                <li>
+                    Third
+                </li>
+                <li>
+                    Fourth
+                </li>
+                <li>
+                    Fifth
+                </li>
+                <li>
+                    Sixth
+                </li>
+            </ul>
+        </section>
+
+        <section class="sliderp">
+            <h2>Rekomendasi</h2>
+            <div class="terserah">
+                <div class="card">
+                    <div class="card-image">image</div>
+                    <h3>Relaxing Music</h3>
+                </div>
+                <div class="card">
+                    <div class="card-image">image</div>
+                    <h3>Relaxing Music</h3>
+                </div>
+                <div class="card">
+                    <div class="card-image">image</div>
+                    <h3>Relaxing Music</h3>
+                </div>
+                <div class="card">
+                    <div class="card-image">image</div>
+                    <h3>Relaxing Music</h3>
+                </div>
+                <div class="card">
+                    <div class="card-image">image</div>
+                    <h3>Relaxing Music</h3>
+                </div>
+                <div class="card">
+                    <div class="card-image">image</div>
+                    <h3>Relaxing Music</h3>
+                </div>
+            </div>
+        </section>
+        
+        <section class="trending">
+            <h2>Trending (Top 5)</h2>
+            <ul>
+                <li>
+                    1.
+                </li>
+                <li>
+                    2.
+                </li>
+                <li>
+                    3.
+                </li>
+                <li>
+                    4.
+                </li>
+                <li>
+                    5.
+                </li>
+            </ul>
+        </section>
+
+        <section class="playlist">
+            <h2>Playlist</h2>
+            <div class="box-list">
+                <div class="box">
+                    <div class="box-image">image</div>
+                    <h3>Relaxing Music</h3>
+                </div>
+                <div class="box">
+                    <div class="box-image">image</div>
+                    <h3>Relaxing Music</h3>
+                </div>
+                <div class="box">
+                    <div class="box-image">image</div>
+                    <h3>Relaxing Music</h3>
+                </div>
+                <div class="box">
+                    <div class="box-image">image</div>
+                    <h3>Relaxing Music</h3>
+                </div>
+            </div>
+            <div class="song-list">
+                <h4>Relax</h4>
+                <ul>
+                    <li>
+                        <span class="number span-items">1.</span>
+                        <span class="name span-items">
+                            <span class="header-name span-items">My World</span>
+                            <i class="sub-name span-items">Florian Bur</i>
+                        </span>
+                        <svg class="heart span-items"width="17" height="15" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18.9615 1.68981C16.7139 -0.316835 13.3711 0.0441023 11.308 2.27418L10.5 3.14645L9.69201 2.27418C7.63302 0.0441023 4.28615 -0.316835 2.03849 1.68981C-0.53729 3.99293 -0.672642 8.12652 1.63244 10.623L9.56896 19.2082C10.0817 19.7625 10.9143 19.7625 11.427 19.2082L19.3635 10.623C21.6727 8.12652 21.5373 3.99293 18.9615 1.68981Z" fill="white"/>
+                        </svg>
+                        </span>
+                        <span class="like span-items">8.267</span>
+                        <span class="minute span-items">4.28</span>
+                    </li>
+                    <li>
+                        <span class="number span-items">2.</span>
+                        <span class="name span-items">
+                            <span class="header-name span-items">The Way</span>
+                            <i class="sub-name span-items">Florian Bur</i>
+                        </span>
+                        <svg class="heart span-items"width="17" height="15" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18.9615 1.68981C16.7139 -0.316835 13.3711 0.0441023 11.308 2.27418L10.5 3.14645L9.69201 2.27418C7.63302 0.0441023 4.28615 -0.316835 2.03849 1.68981C-0.53729 3.99293 -0.672642 8.12652 1.63244 10.623L9.56896 19.2082C10.0817 19.7625 10.9143 19.7625 11.427 19.2082L19.3635 10.623C21.6727 8.12652 21.5373 3.99293 18.9615 1.68981Z" fill="white"/>
+                        </svg>
+                        </span>
+                        <span class="like span-items">5.847</span>
+                        <span class="minute span-items">2.16</span>
+                    </li>
+                    <li>
+                        <span class="number span-items">3.</span>
+                        <span class="name span-items">
+                            <span class="header-name span-items">Thank You</span>
+                            <i class="sub-name span-items">Florian Bur</i>
+                        </span>
+                        <svg class="heart span-items"width="17" height="15" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18.9615 1.68981C16.7139 -0.316835 13.3711 0.0441023 11.308 2.27418L10.5 3.14645L9.69201 2.27418C7.63302 0.0441023 4.28615 -0.316835 2.03849 1.68981C-0.53729 3.99293 -0.672642 8.12652 1.63244 10.623L9.56896 19.2082C10.0817 19.7625 10.9143 19.7625 11.427 19.2082L19.3635 10.623C21.6727 8.12652 21.5373 3.99293 18.9615 1.68981Z" fill="white"/>
+                        </svg>
+                        </span>
+                        <span class="like span-items">4.329</span>
+                        <span class="minute span-items">3.22</span>
+                    </li>
+                    <li>
+                        <span class="number span-items">4.</span>
+                        <span class="name span-items">
+                            <span class="header-name span-items">White Angel</span>
+                            <i class="sub-name span-items">Florian Bur</i>
+                        </span>
+                        <svg class="heart span-items"width="17" height="15" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18.9615 1.68981C16.7139 -0.316835 13.3711 0.0441023 11.308 2.27418L10.5 3.14645L9.69201 2.27418C7.63302 0.0441023 4.28615 -0.316835 2.03849 1.68981C-0.53729 3.99293 -0.672642 8.12652 1.63244 10.623L9.56896 19.2082C10.0817 19.7625 10.9143 19.7625 11.427 19.2082L19.3635 10.623C21.6727 8.12652 21.5373 3.99293 18.9615 1.68981Z" fill="white"/>
+                        </svg>
+                        </span>
+                        <span class="like span-items">6.439</span>
+                        <span class="minute span-items">4.55</span>
+                    </li>
+                    <li>
+                        <span class="number span-items">5.</span>
+                        <span class="name span-items">
+                            <span class="header-name span-items">I Remember</span>
+                            <i class="sub-name span-items">Florian Bur</i>
+                        </span>
+                        <svg class="heart span-items"width="17" height="15" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18.9615 1.68981C16.7139 -0.316835 13.3711 0.0441023 11.308 2.27418L10.5 3.14645L9.69201 2.27418C7.63302 0.0441023 4.28615 -0.316835 2.03849 1.68981C-0.53729 3.99293 -0.672642 8.12652 1.63244 10.623L9.56896 19.2082C10.0817 19.7625 10.9143 19.7625 11.427 19.2082L19.3635 10.623C21.6727 8.12652 21.5373 3.99293 18.9615 1.68981Z" fill="white"/>
+                        </svg>
+                        </span>
+                        <span class="like span-items">3.209</span>
+                        <span class="minute span-items">2.49</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+		
+        <script>
+            $(document).ready(function(){
+                $('.terserah').slick({
+                    centerMode: true,
+                    centerPadding: '60px',
+                    slidesToShow: 3,
+                    infinite: true,
+                    adaptiveHeight: true,
+                    responsive: [
+                        {
+                        breakpoint: 768,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 3
+                        }
+                        },
+                        {
+                        breakpoint: 480,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 1
+                        }
+                        }
+                    ]
+                });
+            });
+        </script>
+    </body>
+</html>

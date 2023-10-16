@@ -1,16 +1,19 @@
 body {
+    width: 100%;
     background: #1D1D20;
-    overflow: auto;
+    overflow-x: hidden;
 }
 
+
 nav {
+    width: 100%;
     background: #1D1D20;
     display: flex;
     align-items: center;
     justify-content: space-around;
-}
-
-header.navbar-container {
+  }
+  
+  header.navbar-container {
     width: 100%;
     margin-inline: auto;
     align-items: center;
@@ -21,27 +24,26 @@ header.navbar-container {
     z-index: 999;
     transition: all 0.3s ease-in-out;
     transition: box-shadow 0.3s ease-in-out;
-}  
-
-header.navbar-container:hover {
+  }
+  
+  header.navbar-container:hover {
     box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
-}
-
-header.navbar-container .nav-list ul {
-    padding-left: 0;
+  }
+  
+  header.navbar-container .nav-list ul {
     display: flex;
     justify-content: center;
     gap: 2rem 1rem;
-}
-
-header.navbar-container .nav-list li {
+  }
+  
+  header.navbar-container .nav-list li {
     list-style-type: none;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-header.navbar-container .nav-list li a {
+  }
+  
+  header.navbar-container .nav-list li a {
     text-decoration: none;
     font-family: Montserrat;
     font-size: 1.05rem;
@@ -50,47 +52,58 @@ header.navbar-container .nav-list li a {
     padding: .5rem 1.5rem;
     border-radius: 999px;
     transition: all .2s ease-in-out;
-}
+  }
 
-header.navbar-container .nav-list ul {
-    display: flex;
-    justify-content: center;
-}
+  .navbar.active {
+    top: 0;
+  }
 
-header.navbar-container .nav-list li {
-    list-style-type: none;
+  section {
+    height: 0vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    font-size: 3rem;
+  }
+  
+  @media screen and (max-width: 768px) {
 
-header.navbar-container .nav-list li a {
-    text-decoration: none;
-    font-family: Montserrat;
-    font-size: 1.05rem;
-    font-weight: 500;
-    color: #FDFEFE;
-    border-radius: 999px;
-    transition: all .2s ease-in-out;
-}
-
-header.navbar-container .nav-list li:hover a {
-    background-color: #2F2E41;
-    color: white;
-}
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    header.navbar-container .nav-list ul {
+      flex-direction: row;
+      align-items: center;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+  
+    header.navbar-container .nav-list li {
+      width: 100%;
+    }
+  
+    header.navbar-container .nav-list li a {
+      display: block;
+      width: 100%;
+      text-align: center;
+      padding: .5rem 0;
+    }
+  }
 
 
 main {
-    padding-bottom: 100px;
+    width: 100%;
     background: #1D1D20;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 47px;
 }
 
 
 main .content {
+    width: 100%;
     margin-top: 100px;
     /* set in center  */
     display: flex;
@@ -149,9 +162,6 @@ main .meditation {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 100px
 }
 
 main .persiapan {
@@ -299,7 +309,23 @@ main .put {
     justify-content: right;
 }
 
-.button {
+button{
+    border-radius: 20px;
+    background: #28283000;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0px 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #1d1d2765;
+}
+
+main .button {
+    padding: auto;
+    color: #FFF;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -315,15 +341,26 @@ main .put {
     line-height: normal;
 }
 
-.footer {
+footer{
+    position: relative;
+    width: 100%;
+    background: #282830;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 47px;
+}
+
+footer .footer {
     /* background-color: #2F2E41; */
     background: #282830;
     padding-top: 50px;
     padding-bottom: 50px;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    padding-right: 50px;
     gap: 47px;
 }
 
@@ -372,6 +409,7 @@ footer .socials {
     flex-direction: row;
     gap: 15px;
 }
+
 main .card-box {
     padding-top: 50px;
     display: flex;
@@ -440,11 +478,14 @@ main .card-box {
     }
   }
   
-  @media screen and (max-width: 1024px) {
-    main .content {
-      margin-top: 30px;
-      padding-left: 5px;
-      padding-right: 5px;
+  @media screen and (max-width: 768px) {
+    footer {
+      font-size: 14px;
     }
   }
   
+  @media screen and (max-width: 480px) {
+    footer {
+      font-size: 12px;
+    }
+  }
